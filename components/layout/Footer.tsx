@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Linkedin, Instagram, Twitter } from "lucide-react";
+import { Linkedin, Instagram, Facebook } from "lucide-react";
 import { siteConfig } from "@/lib/metadata";
 
 const services = [
@@ -30,7 +30,7 @@ const company = [
 const social = [
   { label: "LinkedIn",  href: siteConfig.social.linkedin,  Icon: Linkedin  },
   { label: "Instagram", href: siteConfig.social.instagram, Icon: Instagram },
-  { label: "Twitter",   href: siteConfig.social.twitter,   Icon: Twitter   },
+  { label: "Facebook",  href: siteConfig.social.facebook,  Icon: Facebook  },
 ];
 
 export default function Footer() {

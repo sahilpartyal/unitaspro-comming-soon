@@ -12,9 +12,9 @@ export const siteConfig = {
   city: "Mohali",
   country: "India",
   social: {
-    linkedin: "#",
-    instagram: "#",
-    twitter: "#",
+    linkedin: "https://www.linkedin.com/company/unitas-pro/",
+    instagram: "https://www.instagram.com/unitaspro/",
+    facebook: "https://www.facebook.com/people/UnitasPro/61576693321720/",
   },
 };
 
